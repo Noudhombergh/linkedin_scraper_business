@@ -51,7 +51,7 @@ This repository contains a Python script to scrape company data from the LinkedI
 2. Open `linkedin_scraper.py` and update the user-defined parameters at the bottom of the file:
    ```python
    COUNTRY = "Netherlands"
-   LOCATION = "Venlo"
+   LOCATION = "Amsterdam"
    MIN_EMPLOYEES = 20
    MAX_EMPLOYEES = 50
    OUTPUT_FILE = "company_data.xlsx"
@@ -67,7 +67,7 @@ This repository contains a Python script to scrape company data from the LinkedI
 ## Customization
 You can adjust the following parameters:
 - `COUNTRY`: Specify the country of the companies to fetch (e.g., `"Netherlands"`).
-- `LOCATION`: Specify the city or region (e.g., `"Venlo"`).
+- `LOCATION`: Specify the city or region (e.g., `"Amsterdam"`).
 - `MIN_EMPLOYEES`: Minimum number of employees.
 - `MAX_EMPLOYEES`: Maximum number of employees.
 - `OUTPUT_FILE`: Path to save the Excel output file.
