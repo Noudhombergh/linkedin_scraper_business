@@ -53,7 +53,7 @@ Before using this repository, you must sign up at [CoreSignal](https://coresigna
 2. Open `linkedin_scraper.py` and update the user-defined parameters at the bottom of the file:
    ```python
    COUNTRY = "Netherlands"
-   LOCATION = "Venlo"
+   LOCATION = "Amsterdam"
    MIN_EMPLOYEES = 20
    MAX_EMPLOYEES = 50
    OUTPUT_FILE = "company_data.xlsx"
@@ -69,7 +69,7 @@ Before using this repository, you must sign up at [CoreSignal](https://coresigna
 ## Customization
 You can adjust the following parameters:
 - `COUNTRY`: Specify the country of the companies to fetch (e.g., `"Netherlands"`).
-- `LOCATION`: Specify the city or region (e.g., `"Venlo"`).
+- `LOCATION`: Specify the city or region (e.g., `"Amsterdam"`).
 - `MIN_EMPLOYEES`: Minimum number of employees.
 - `MAX_EMPLOYEES`: Maximum number of employees.
 - `OUTPUT_FILE`: Path to save the Excel output file.
